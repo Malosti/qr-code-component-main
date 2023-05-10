@@ -74,3 +74,20 @@ div.text > p{
     color: var(--grayish-blue);
     line-height: 1.2rem;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+}
+
+footer > div.attribution{
+    font-size: 11px; 
+    text-align: center;
+}
+footer > div.attribution a{ 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
