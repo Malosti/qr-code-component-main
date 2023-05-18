@@ -17,6 +17,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
@@ -33,7 +34,7 @@ section.container{
     flex-direction: column;
     align-items: center;
 
-    width: 62%;
+    width: 310px;
     height: 80%;
 
     margin: auto;
@@ -49,7 +50,7 @@ div.image{
     background-image: url(../images/image-qr-code.png);
     background-position: center;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 
